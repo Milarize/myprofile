@@ -1,5 +1,11 @@
 name: Deploy to GitHub Pages
 
+# อัพเดตส่วน permissions ให้ชัดเจน
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 on:
   push:
     branches:
